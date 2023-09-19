@@ -8,4 +8,4 @@ deposit = list(map(lambda x: round(x*money/100), per_cent.values()))
 
 max_value = max(deposit)
 
-print ("Максимальная сумма, которую вы можете заработать — ", max_value)
+print ("The maximum amount you can earn is — ", max_value)
